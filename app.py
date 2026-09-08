@@ -102,7 +102,7 @@ st.markdown("""
 def load_data():
 
     # Works when CSV is in the same folder as app.py
-    file_path = Path(__file__).parent / "global_digital_connectivity_intelligence44(1).csv"
+    file_path = Path(__file__).parent / "global_digital_connectivity_intelligence44.csv"
 
     df = pd.read_csv(file_path)
 
